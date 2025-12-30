@@ -301,9 +301,10 @@ const TopUpPage = () => {
             </div>
           </div>
         </div>
-        {/* Footer */}
-        <Footer />
       </main>
+
+      {/* Footer */}
+      <Footer />
 
       <ConfirmationModal
         open={showConfirmation}

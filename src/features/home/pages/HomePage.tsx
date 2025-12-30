@@ -86,10 +86,10 @@ const HomePage = () => {
             )}
           </div>
         </section>
-
-        {/* Footer */}
-        <Footer />
       </main>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
