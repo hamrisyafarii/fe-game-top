@@ -10,6 +10,7 @@ import { toast } from "sonner";
 import { PaymentMethod } from "../components/PaymentMethods";
 import { formatPrice } from "@/lib/toRupiah";
 import { ConfirmationModal } from "../components/ConfirmationModal";
+import Footer from "@/components/shared/Footer";
 
 const TopUpPage = () => {
   const params = useParams();
@@ -300,6 +301,8 @@ const TopUpPage = () => {
             </div>
           </div>
         </div>
+        {/* Footer */}
+        <Footer />
       </main>
 
       <ConfirmationModal
